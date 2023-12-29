@@ -1,0 +1,146 @@
+@font-face {
+    font-family: Bondie;
+    src: url(Fonts/BondieRegular-eZeLm.ttf);
+}
+
+.containerG{
+    padding: 0px 13%;
+    position: relative;
+    top: 160px;
+}
+
+.wiki{
+    width: 100%;
+    height: 300vh;
+}
+
+
+.wiki .navbar{
+    background: linear-gradient(180deg, hsla(293, 94%, 50%, 1) 8%, hsla(294, 100%, 28%, 1) 100%);
+}
+
+.H{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 90px;    
+    pointer-events: none;
+    
+}
+
+.List{
+    width: 100%;
+    position: relative;
+    top: 150px;
+}
+.mods{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background: linear-gradient(to bottom right, #fffffffa, #f0f0f0fb);
+    border-radius: 15px;
+    padding: 20px 40px 20px 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 30px rgb(224, 6, 152);}
+
+.List li{
+    list-style: none;
+}
+
+.List li a{
+    text-decoration: none;
+    color: #DC0AF7;
+    font-family: Bondie;
+    font-size: 23px;
+
+}
+
+.List li a::after{
+    background-color: #DC0AF7;
+}
+
+.mod-list{
+    width: 100%;
+    height: 300vh;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    top: 100px;
+    color: black;
+}
+
+.page{
+    position: relative;
+    left: 20px;
+    background-color: #978d8d33;
+    width: 670px;
+    height: 250px;
+    padding: 30px 0px 30px 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3{
+    font-size: 30px;
+    position: relative;
+    left: 30px;
+    font-family: Bondie;
+}
+hr{
+    border: 1px solid #ddd; 
+    margin: 20px 0; 
+    width: 630px;
+    position: relative;
+    left: 20px;
+}
+.txt{
+    width: 70%;
+    position: relative;
+    left: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.right{
+    width: 250px;
+    float: left;
+    margin-top: 40px;
+}
+
+.right p a{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    color:  black;
+}
+
+#Create{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    padding-top: 90px;
+}
+
+#IronSpell{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    padding-top: 90px;
+}
+
+#Silent{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    padding-top: 90px;
+}
+
+
+#Backpacks{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    padding-top: 90px;
+}
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreateTopia</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="navbar.js" defer></script>
+    <script src="gallery.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="Hero">
+        <div class="navbar" id="navbar">
+            <nav>
+                <li><a href="#Hero"><img src="Fotky/Head.png" style="width: 40px;"></a></li>
+                <li><a href="#Info">Informace</a></li>
+                <li><a href="guide.html">Guide Book</a></li>
+                <li><a href="#Galerie">Galerie</a></li>
+            </nav>
+        </div>
+
+        <div class="title">
+            <img src="Fotky/Title.png" style="width: 600px;">
+        </div>
+    </div>
+
+    <div id="Info">
+        <div class="container">
+            <div class="informace">
+                <h1>Informace</h1>
+                <p class="inf">Správci: Rhedris, Odehnal.</p>
+                <p class="inf">Verze: 1.20.1 Forge</p>
+                <p class="inf">Whitelisted</p>
+
+                <div class="download">
+                    <p style="margin-bottom: 25px;">Mod Folder:</p>
+                    <a href="" download class="download-btn">Stáhnout ></a>
+                </div>
+            </div>
+
+            <div class="spawn">
+                <div class="gallery1">
+                    <img src="Fotky/spawn.png" alt="Image 1" class="gallery-image" onclick="openFullScreen(this)">
+                </div>
+            
+                <div id="fullscreen-overlay" onclick="closeFullScreen()">
+                    <img src="" alt="Full Screen Image" id="fullscreen-image">
+                </div>
+            
+                <p style="font-family: 'Raleway', sans-serif;">Měna: Arcane Debris</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="Galerie">
+       <div class="container">
+            <h2 class="g">Galerie</h2>
+            <div class="gallery">
+
+                <div class="gallery-item">
+                <img src="Fotky/Galerie/Ancient.png" alt="Image 2" class="gallery-image" onclick="openFullScreen(this)">
+                <div class="caption">Walk a Rhedris v Ancient City</div>
+                </div>
+
+                <div class="gallery-item">
+                <img src="Fotky/Galerie/Aneko.png" alt="Image 3" class="gallery-image" onclick="openFullScreen(this)">
+                <div class="caption">Aneko a Rhedris u Ode baterky</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="Fotky/Galerie/Fadam.png" alt="Image 4" class="gallery-image" onclick="openFullScreen(this)">
+                    <div class="caption">F pro Ukeliho</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="Fotky/Galerie/frank alir starter.png" alt="Image 5" class="gallery-image" onclick="openFullScreen(this)">
+                    <div class="caption">Frank a Allire Starter base</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="Fotky/Galerie/rybnik.png" alt="Image 6" class="gallery-image" onclick="openFullScreen(this)">
+                    <div class="caption">Dalados rybníček</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="Fotky/Galerie/Dalasbirka.png" alt="Image 7" class="gallery-image" onclick="openFullScreen(this)">
+                    <div class="caption">Daladova kolekce Iron Spell</div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="Fotky/Galerie/DalaBackrooms.png" alt="Image 8" class="gallery-image" onclick="openFullScreen(this)">
+                    <div class="caption">Dalados Backrooms :o</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="Fotky/Galerie/magnetic.png" alt="Image 9" class="gallery-image" onclick="openFullScreen(this)">
+                    <div class="caption">Alex's Magnetic Cave</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="Fotky/Galerie/End.png" alt="Image 9" class="gallery-image" onclick="openFullScreen(this)">
+                    <div class="caption">NÁŠ PRVNÍ BOSS FIGHT MUHEHEHE</div>
+                </div>
+
+            </div>
+       </div>
+
+    </div>
+
+</body>
+</html>
+
+
+
+
+
